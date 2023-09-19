@@ -14,8 +14,11 @@ const Greeting = () => {
 
   return (
       <>
-        <h1>Greeting:</h1>
-        <p>{greeting}</p>
+        <center>
+          <h1>Hi There, This is React on Rails with webpack</h1>
+          <h2>Greeting:</h2>
+          <p>{greeting}</p>
+        </center>
       </>
     );
 }
